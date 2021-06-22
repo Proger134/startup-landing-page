@@ -1688,11 +1688,8 @@ select {
 
 @media (max-width: 600px) {
   .contact__text {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: none;
+    visibility: hidden;
   }
 }
 
@@ -1882,6 +1879,7 @@ select {
 @media (max-width: 600px) {
   .contact__button {
     margin: 0 0 10px 0;
+    width: 100%;
   }
 }
 

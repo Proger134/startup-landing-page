@@ -1292,8 +1292,8 @@ $whiteGreyColor: #f8f8f8;
             margin: 0;
         }
         @media (max-width: 600px) {
-            flex-wrap: wrap;
-            justify-content: center;
+            display: none;
+            visibility: hidden;
         }
     }
 
@@ -1461,6 +1461,7 @@ $whiteGreyColor: #f8f8f8;
 
         @media (max-width: 600px) {
             margin: 0 0 10px 0;
+            width: 100%;
         }
        
     }
